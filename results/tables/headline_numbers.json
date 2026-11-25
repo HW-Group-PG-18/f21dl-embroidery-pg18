@@ -1,0 +1,69 @@
+{
+  "best_classical": {
+    "model": "logistic_regression",
+    "case": "straight_only",
+    "f1": 1.0,
+    "auc": 1.0
+  },
+  "mlp": {
+    "straight_only": {
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "straight_45": {
+      "f1": 0.944,
+      "auc": 0.976
+    },
+    "straight_60": {
+      "f1": 0.917,
+      "auc": 0.996
+    }
+  },
+  "cnn": {
+    "straight_only": {
+      "f1": 0.93,
+      "auc": 1.0
+    },
+    "straight_45": {
+      "f1": 0.645,
+      "auc": 0.864
+    },
+    "straight_60": {
+      "f1": 0.846,
+      "auc": 0.929
+    }
+  },
+  "vae": {
+    "auc": 0.891,
+    "f1": 0.821
+  },
+  "h1_delta": {
+    "cnn:straight_45": 0.881,
+    "cnn:straight_60": 0.985,
+    "cnn:straight_only": 0.925,
+    "decision_tree:straight_45": 1.0,
+    "decision_tree:straight_60": 1.0,
+    "decision_tree:straight_only": 0.493,
+    "gradient_boosting:straight_45": 1.0,
+    "gradient_boosting:straight_60": 1.0,
+    "gradient_boosting:straight_only": 0.493,
+    "knn:straight_45": 0.493,
+    "knn:straight_60": 1.0,
+    "knn:straight_only": 1.0,
+    "logistic_regression:straight_45": 0.493,
+    "logistic_regression:straight_60": 1.0,
+    "logistic_regression:straight_only": 1.0,
+    "mlp:straight_45": 1.0,
+    "mlp:straight_60": 1.0,
+    "mlp:straight_only": 1.0,
+    "naive_bayes:straight_45": 0.507,
+    "naive_bayes:straight_60": 0.493,
+    "naive_bayes:straight_only": 0.493,
+    "perceptron:straight_45": 0.493,
+    "perceptron:straight_60": 1.0,
+    "perceptron:straight_only": 1.0,
+    "random_forest:straight_45": 0.985,
+    "random_forest:straight_60": 1.0,
+    "random_forest:straight_only": 1.0
+  }
+}
