@@ -117,7 +117,7 @@ Every number below comes from the pipeline and sits in `results/tables/`.
 
 ![AUC for a model trained on one angle and tested on another](results/figures/h2_cross_view.png)
 
-*Trained on one angle, tested on another. The diagonal is the model on its own view; everything off it collapses.*
+*AUC in each cell for a model trained on one angle and tested on another. The diagonal is the model on its own view. A 45 degree model scores 0.000 on the 90 degree images, and a 90 degree model scores 0.107 on the 45 degree ones.*
 
 The tables worth opening first:
 
