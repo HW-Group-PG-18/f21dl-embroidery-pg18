@@ -1,0 +1,10 @@
+split,view,images,normal
+test,45,101,69
+test,60,66,34
+test,straight,67,34
+train,45,213,93
+train,60,241,112
+train,straight,175,44
+val,45,63,24
+val,60,83,42
+val,straight,71,40

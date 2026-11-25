@@ -1,0 +1,2 @@
+model,n,positives,accuracy,precision,recall,f1,balanced_accuracy,roc_auc,threshold,threshold_rule,auc
+vae_anomaly,234,97,0.8376068376068376,0.7565217391304347,0.8969072164948454,0.8207547169811321,0.846263827225525,0.8914892015953042,0.0289754755795002,95th percentile of validation normal reconstruction error,0.8914892015953042

@@ -1,0 +1,7 @@
+view,label,brightness,contrast,sharpness
+45,abnormal,0.137,0.196,0.025
+45,normal,0.175,0.198,0.026
+60,abnormal,0.148,0.208,0.027
+60,normal,0.165,0.187,0.025
+straight,abnormal,0.353,0.217,0.031
+straight,normal,0.281,0.18,0.028

@@ -1,0 +1,19 @@
+model,comparison,n,n_discordant,p_value,a_only_correct,b_only_correct
+cnn,straight_only vs straight_45,67,13,0.5810546875,8,5
+cnn,straight_only vs straight_60,67,6,0.21875,1,5
+decision_tree,straight_only vs straight_45,67,34,1.1641532182693481e-10,0,34
+decision_tree,straight_only vs straight_60,67,34,1.1641532182693481e-10,0,34
+gradient_boosting,straight_only vs straight_45,67,34,1.1641532182693481e-10,0,34
+gradient_boosting,straight_only vs straight_60,67,34,1.1641532182693481e-10,0,34
+knn,straight_only vs straight_45,67,34,1.1641532182693481e-10,34,0
+knn,straight_only vs straight_60,67,0,1.0,0,0
+logistic_regression,straight_only vs straight_45,67,34,1.1641532182693481e-10,34,0
+logistic_regression,straight_only vs straight_60,67,0,1.0,0,0
+mlp,straight_only vs straight_45,67,0,1.0,0,0
+mlp,straight_only vs straight_60,67,0,1.0,0,0
+naive_bayes,straight_only vs straight_45,67,5,1.0,2,3
+naive_bayes,straight_only vs straight_60,67,0,1.0,0,0
+perceptron,straight_only vs straight_45,67,34,1.1641532182693481e-10,34,0
+perceptron,straight_only vs straight_60,67,0,1.0,0,0
+random_forest,straight_only vs straight_45,67,1,1.0,1,0
+random_forest,straight_only vs straight_60,67,0,1.0,0,0

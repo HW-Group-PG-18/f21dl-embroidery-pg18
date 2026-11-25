@@ -1,0 +1,14 @@
+bootstrap: 1000
+cnn_epochs: 25
+cnn_patience: 6
+cv_folds: 5
+feature_size: 128
+img_size: 128
+mlp_hidden:
+- 128
+- 64
+n_jobs: -1
+seed: 42
+test_groups: 6
+vae_epochs: 40
+val_groups: 6

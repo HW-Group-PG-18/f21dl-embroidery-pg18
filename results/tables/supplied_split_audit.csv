@@ -1,0 +1,4 @@
+case,images,groups,test_groups,test_normal_frac,groups_reassigned_across_cases
+straight_45,690,33,3,0.708,10/35 groups change split between view cases
+straight_60,703,35,3,0.653,
+straight_only,313,33,3,0.421,
