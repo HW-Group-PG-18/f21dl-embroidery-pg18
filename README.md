@@ -130,6 +130,8 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 python -m src.run_all
 ```
 
+`config.yaml` holds the exact settings behind the numbers in the report: 128 px input, seed 42, 25 CNN epochs, a six-group validation and test split, and 1000 bootstrap resamples. Change it and results will drift from the tables.
+
 By default the dataset is read from `Vina-Embroidery/` in the repo root (git-ignored).
 Elsewhere, pass `--dataset <folder that contains raw/vai_theu/manifest.csv>`. A full run
 takes about an hour on a CPU laptop, mostly the CNN and the VAE. Stages can be run on their
