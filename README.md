@@ -50,7 +50,7 @@ group id. That matters for splitting: two frames of the same defect taken a seco
 almost identical, so if one lands in training and the other in test the model looks far better
 than it is. All splits are made on groups, never on images.
 
-![Normal and defective embroidery at each camera angle](results/figures/eda_examples.png)
+<img src="results/figures/eda_examples.png" width="400" alt="Normal and defective embroidery at each camera angle">
 
 *Two frames per view and class. The normal 90 degree images come from normal-only groups, which
 are separate designs from the defect groups. That overlap between class and design is one of the
@@ -114,6 +114,10 @@ Every number below comes from the pipeline and sits in `results/tables/`.
 - **Lighting carries some of the signal** (AUC 0.603, accuracy 0.632 on brightness features
   alone), and the normal groups are separate patch designs, which is the most likely reason the
   supervised numbers look as high as they do.
+
+![AUC for a model trained on one angle and tested on another](results/figures/h2_cross_view.png)
+
+*Trained on one angle, tested on another. The diagonal is the model on its own view; everything off it collapses.*
 
 The tables worth opening first:
 
